@@ -1,4 +1,4 @@
-const messages = ["NEVER", "GUNNA ", "GIVE", "YOU","UP", "LET     ", "DOWN      "]
+const messages = ["NEVER ", "GUNNA  ", "GIVE ", "YOU ","UP ", " LET     ", " DOWN      "]
 
 var pinkrain = 0;
 var orangerain = 25
@@ -14,8 +14,8 @@ var M = {
             COL_WIDTH: 20,
             COL_HEIGHT: 25,
             VELOCITY_PARAMS: {
-                min: 3,
-                max: 7
+                min: 1,
+                max: 2
             },
             CODE_LENGTH_PARAMS: {
                 min: 3,
