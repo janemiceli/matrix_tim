@@ -18,11 +18,12 @@ var M = {
                 max: 7
             },
             CODE_LENGTH_PARAMS: {
-                min: 4,
+                min: 3,
                 max: 20
             }
         },
         animation: null,
+        c: null,
         ctx: null,
         lineC: null,
         ctx2: null,
@@ -76,7 +77,6 @@ var M = {
             "use strict";
             M.animation = requestAnimationFrame(function () { M.loop(); });
             M.draw();
-            //stats.update();
         },
         draw: function () {
             "use strict";
@@ -109,7 +109,6 @@ var M = {
                             M.codes[i][0].position.y = 0;
                         }
                     }
-
                 }
             }
         },
