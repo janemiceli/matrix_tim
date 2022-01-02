@@ -1,6 +1,10 @@
 Matrix code rain
 ================
 
+<p align="center">
+<img src="https://github.com/janemiceli/matrix_tim/blob/gh-pages/media/matrix_tim.gif">
+</p>
+
 **See live demo [here](https://janemiceli.github.io/matrix_tim/)**
 
 *Matrix* font is from [here](http://www.dafont.com/matrix-code-nfi.font).
